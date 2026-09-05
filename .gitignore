@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build
+dist/
+build/
+*.apk
+*.aab
+
+# Env
+.env
+.env.local
+.env.*.local
+*.pem
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Coverage
+coverage/
+
+# Android
+android-*/.gradle/
+android-*/local.properties
+android-*/app/build/
+android-*/captures/
+
+# Next.js
+web/.next/
+web/out/
+
+# Docker
+docker/postgres_data/
